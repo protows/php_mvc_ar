@@ -1,0 +1,22 @@
+/application/controllers/HomeController.php
+
+aaa/#/bbb/#/dfghj
+
+aaa/12/bbb/abc/dfghj
+
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
+
+git clone https://github.com/protows/redux2.git
+git status
+git add index.html
+git add -A
+git commit -m "first commit"
+git push
